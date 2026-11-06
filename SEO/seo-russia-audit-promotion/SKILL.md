@@ -44,3 +44,4 @@ description: Комплексный SEO-аудит и системное про�
 - [Яндекс/Россия](references/03-yandex-russia.md) · [Семантика и контент](references/04-semantics-content.md)
 - [Ссылки, доверие, отрасли](references/05-authority-verticals.md) · [Измерение](references/06-measurement.md)
 - [WordPress/Bitrix и внедрение](references/07-implementation.md) · [Источники](references/08-sources.md)
+- [Сценарии диагностики](references/09-playbooks.md) · [Примеры SEO-файлов](references/10-files-examples.md)
