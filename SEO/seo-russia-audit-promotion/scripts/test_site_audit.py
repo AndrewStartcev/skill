@@ -84,7 +84,7 @@ class ReportTests(unittest.TestCase):
             self.assertTrue((output / "report.json").is_file())
             self.assertTrue((output / "issues.csv").is_file())
             summary = (output / "summary.md").read_text(encoding="utf-8")
-            self.assertIn("# Preliminary SEO audit\\n\\n- Checked:", summary)
+            self.assertIn("# Preliminary SEO audit\n\n- Checked:", summary)
             self.assertIn("## Limitations", summary)
 
 
