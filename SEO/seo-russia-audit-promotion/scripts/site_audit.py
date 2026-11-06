@@ -420,7 +420,7 @@ def write_report(report: dict, output: Path) -> None:
         lines.append(f"- **{item['priority']} {item['code']}**: {item['url']} — {item['detail']}")
     lines.extend(["", "## Limitations", ""])
     lines.extend(f"- {note}" for note in report["notes"])
-    (output / "summary.md").write_text("\\n".join(lines) + "\\n", encoding="utf-8")
+    (output / "summary.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def main() -> int:
