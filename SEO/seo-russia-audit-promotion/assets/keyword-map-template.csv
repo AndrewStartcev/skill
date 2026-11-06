@@ -1,0 +1,3 @@
+cluster,intent,region,query,frequency_source,frequency_period,target_url,page_type,current_url,priority,content_gap,conversion_goal,notes
+example-service,commercial,Example City,пример услуги,Wordstat,2026-10,https://example.com/services/example/,service,,P1,нет подробных условий,lead,данные вымышленные
+example-guide,informational,Russia,как выбрать пример,Wordstat,2026-10,https://example.com/blog/example-guide/,article,,P2,нужен экспертный материал,assisted_conversion,данные вымышленные
