@@ -1,0 +1,3 @@
+old_url,new_url,action,reason,checked,owner
+https://example.com/remont-mebeli/,https://example.com/services/wood-furniture-repair/,301,Новый адрес той же услуги,no,SEO
+https://example.com/contacts/,https://example.com/contacts/,keep,URL и назначение сохранены,no,разработка
