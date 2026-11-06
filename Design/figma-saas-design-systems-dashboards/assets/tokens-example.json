@@ -1,0 +1,63 @@
+{
+  "$description": "Документационный образец токенов для ручного переноса в Figma. НЕ является стандартным импортом Figma Variables.",
+  "scale": "4px",
+  "primitives": {
+    "color": {
+      "neutral": {
+        "0": "#FFFFFF",
+        "50": "#F8FAFC",
+        "200": "#E2E8F0",
+        "500": "#64748B",
+        "900": "#0F172A",
+        "950": "#020617"
+      },
+      "blue": {
+        "500": "#2563EB",
+        "400": "#60A5FA"
+      },
+      "red": {
+        "600": "#DC2626",
+        "400": "#F87171"
+      }
+    },
+    "space_px": {
+      "0": 0,
+      "1": 4,
+      "2": 8,
+      "3": 12,
+      "4": 16,
+      "6": 24,
+      "8": 32,
+      "12": 48
+    },
+    "radius_px": {
+      "sm": 4,
+      "md": 8,
+      "lg": 12
+    }
+  },
+  "semantic": {
+    "light": {
+      "text/primary": "primitives/color/neutral/900",
+      "text/secondary": "primitives/color/neutral/500",
+      "surface/canvas": "primitives/color/neutral/50",
+      "surface/raised": "primitives/color/neutral/0",
+      "border/default": "primitives/color/neutral/200",
+      "action/primary": "primitives/color/blue/500",
+      "status/danger": "primitives/color/red/600"
+    },
+    "dark": {
+      "text/primary": "primitives/color/neutral/0",
+      "text/secondary": "primitives/color/neutral/200",
+      "surface/canvas": "primitives/color/neutral/950",
+      "surface/raised": "primitives/color/neutral/900",
+      "border/default": "primitives/color/neutral/500",
+      "action/primary": "primitives/color/blue/400",
+      "status/danger": "primitives/color/red/400"
+    }
+  },
+  "component": {
+    "button/primary/bg": "semantic/action/primary"
+  },
+  "note": "Контрасты и aliases необходимо проверять для каждого конкретного использования. Названия путей — соглашение, а не формат Figma REST API."
+}

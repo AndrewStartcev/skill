@@ -1,0 +1,9 @@
+screen_or_component,state,trigger,user_message,action,recovery,role_restriction,figma_frame,checked
+DataTable,loading,Первый запрос,Загружаем записи,Ожидание,Повторить при сбое,view,,no
+DataTable,empty-dataset,Нет созданных записей,Пока нет записей,Создать запись,Открыть форму,create,,no
+DataTable,empty-filter,Фильтры исключили все строки,Ничего не найдено,Сбросить фильтры,Вернуться ко всем,view,,no
+DataTable,error,Ошибка загрузки,Не удалось загрузить записи,Повторить,Повторить запрос,view,,no
+DataTable,no-permission,Нет прав,Недостаточно прав,Запросить доступ,Перейти на разрешенный экран,view,,no
+BulkAction,partial-success,Часть записей обработана,Часть изменений не сохранена,Открыть ошибки,Повторить для разрешенных,edit,,no
+Form,validation-error,Некорректный ввод,Исправь выделенное поле,Исправить,Сохранить после проверки,edit,,no
+Form,success,Изменения подтверждены,Изменения сохранены,Открыть запись,Вернуться к списку,edit,,no
