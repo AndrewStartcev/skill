@@ -1,0 +1,29 @@
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.p12
+*.pfx
+*.key
+id_rsa
+id_ed25519
+*.secret
+*.secrets
+credentials.json
+secrets.json
+
+# Local artifacts
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+vendor/
+*.log
+*.sql
+*.sql.gz
+*.dump
+*.bak
