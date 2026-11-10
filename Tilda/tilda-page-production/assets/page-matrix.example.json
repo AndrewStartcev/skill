@@ -1,0 +1,38 @@
+{
+  "baseUrl": "https://example.com",
+  "pages": [
+    {
+      "path": "/services/",
+      "type": "catalog",
+      "template": "existing-catalog",
+      "contentSource": "approved-catalog-brief",
+      "expectedH1": "Услуги",
+      "expectedTitleContains": "Услуги",
+      "requiredLinks": ["/services/example-service/"],
+      "publish": true,
+      "status": "ready-for-review"
+    },
+    {
+      "path": "/services/example-service/",
+      "type": "service",
+      "template": "approved-service-template",
+      "contentSource": "approved-service-copy",
+      "expectedH1": "Пример услуги",
+      "expectedTitleContains": "Пример услуги",
+      "requiredLinks": ["/services/"],
+      "publish": true,
+      "status": "ready-for-review"
+    },
+    {
+      "path": "/draft-example/",
+      "type": "article",
+      "template": "approved-article-template",
+      "contentSource": "approved-article-copy",
+      "expectedH1": "Черновик статьи",
+      "expectedTitleContains": "Черновик",
+      "requiredLinks": [],
+      "publish": false,
+      "status": "draft"
+    }
+  ]
+}
